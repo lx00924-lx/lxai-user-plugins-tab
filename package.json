@@ -1,0 +1,41 @@
+{
+  "name": "dsh-client-ui-user-plugins",
+  "version": "0.1.1",
+  "private": true,
+  "description": "DSH Web 设置里的「用户插件」独立标签页：只列出你自己装进当前 profile 的插件（不修改任何 @deepseek-ai 官方文件）",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "plugin-list",
+    "settings"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lx00924-lx/lxai-user-plugins-tab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lx00924-lx/lxai-user-plugins-tab/issues"
+  },
+  "author": "lx00924-lx",
+  "homepage": "https://github.com/lx00924-lx/flutter-app",
+  "license": "Apache-2.0",
+  "dsh": {
+    "client": {
+      "platform": "web"
+    }
+  }
+}
